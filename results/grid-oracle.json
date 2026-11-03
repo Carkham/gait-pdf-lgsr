@@ -1,0 +1,134 @@
+{
+  "warning": "Post-hoc selection using probe labels, separately per probe set and metric; not held-out generalization performance.",
+  "seed": 0,
+  "oracle": {
+    "Gabor-PDF-GSR-maxWIRE": {
+      "rank1": {
+        "correct": 124,
+        "videos": 153,
+        "percent": 81.04575163398692,
+        "selected_by_split": {
+          "A": {
+            "method": "Gabor-PDF-GSR-maxWIRE/lambda=0.125",
+            "videos": 71,
+            "rank1_correct": 64,
+            "rank5_correct": 69,
+            "rank1_percent": 90.14084507042254,
+            "rank5_percent": 97.1830985915493
+          },
+          "B": {
+            "method": "Gabor-PDF-GSR-maxWIRE/lambda=0.25",
+            "videos": 41,
+            "rank1_correct": 33,
+            "rank5_correct": 37,
+            "rank1_percent": 80.48780487804879,
+            "rank5_percent": 90.2439024390244
+          },
+          "C": {
+            "method": "Gabor-PDF-GSR-maxWIRE/lambda=0.0625",
+            "videos": 41,
+            "rank1_correct": 27,
+            "rank5_correct": 31,
+            "rank1_percent": 65.85365853658537,
+            "rank5_percent": 75.60975609756098
+          }
+        }
+      },
+      "rank5": {
+        "correct": 141,
+        "videos": 153,
+        "percent": 92.15686274509804,
+        "selected_by_split": {
+          "A": {
+            "method": "Gabor-PDF-GSR-maxWIRE/lambda=0.0625",
+            "videos": 71,
+            "rank1_correct": 63,
+            "rank5_correct": 69,
+            "rank1_percent": 88.73239436619718,
+            "rank5_percent": 97.1830985915493
+          },
+          "B": {
+            "method": "Gabor-PDF-GSR-maxWIRE/lambda=0.0625",
+            "videos": 41,
+            "rank1_correct": 32,
+            "rank5_correct": 37,
+            "rank1_percent": 78.04878048780488,
+            "rank5_percent": 90.2439024390244
+          },
+          "C": {
+            "method": "Gabor-PDF-GSR-maxWIRE/lambda=0.25",
+            "videos": 41,
+            "rank1_correct": 24,
+            "rank5_correct": 35,
+            "rank1_percent": 58.536585365853654,
+            "rank5_percent": 85.36585365853658
+          }
+        }
+      }
+    },
+    "Gabor-PDF-LGSR-maxWIRE": {
+      "rank1": {
+        "correct": 128,
+        "videos": 153,
+        "percent": 83.66013071895425,
+        "selected_by_split": {
+          "A": {
+            "method": "Gabor-PDF-LGSR-maxWIRE/lambda=0.0625,sigma=0.125",
+            "videos": 71,
+            "rank1_correct": 66,
+            "rank5_correct": 69,
+            "rank1_percent": 92.95774647887323,
+            "rank5_percent": 97.1830985915493
+          },
+          "B": {
+            "method": "Gabor-PDF-LGSR-maxWIRE/lambda=0.25,sigma=0.025",
+            "videos": 41,
+            "rank1_correct": 34,
+            "rank5_correct": 35,
+            "rank1_percent": 82.92682926829268,
+            "rank5_percent": 85.36585365853658
+          },
+          "C": {
+            "method": "Gabor-PDF-LGSR-maxWIRE/lambda=0.0625,sigma=0.125",
+            "videos": 41,
+            "rank1_correct": 28,
+            "rank5_correct": 34,
+            "rank1_percent": 68.29268292682927,
+            "rank5_percent": 82.92682926829268
+          }
+        }
+      },
+      "rank5": {
+        "correct": 142,
+        "videos": 153,
+        "percent": 92.81045751633987,
+        "selected_by_split": {
+          "A": {
+            "method": "Gabor-PDF-LGSR-maxWIRE/lambda=0.0625,sigma=0.125",
+            "videos": 71,
+            "rank1_correct": 66,
+            "rank5_correct": 69,
+            "rank1_percent": 92.95774647887323,
+            "rank5_percent": 97.1830985915493
+          },
+          "B": {
+            "method": "Gabor-PDF-LGSR-maxWIRE/lambda=0.0625,sigma=0.125",
+            "videos": 41,
+            "rank1_correct": 32,
+            "rank5_correct": 38,
+            "rank1_percent": 78.04878048780488,
+            "rank5_percent": 92.6829268292683
+          },
+          "C": {
+            "method": "Gabor-PDF-LGSR-maxWIRE/lambda=0.125,sigma=0.125",
+            "videos": 41,
+            "rank1_correct": 28,
+            "rank5_correct": 35,
+            "rank1_percent": 68.29268292682927,
+            "rank5_percent": 85.36585365853658
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "variant": "gabor-5x8-xy-k300",
+  "seed": 0,
+  "config": {
+    "seed": 0,
+    "data_dir": "data/usf-v1.7-mpca",
+    "probe_splits": [
+      "A",
+      "B",
+      "C"
+    ],
+    "grouping": "identity_within_split_proxy_video",
+    "gei_size": [
+      128,
+      88
+    ],
+    "gabor_scales": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gabor_orientations": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "gabor_sigma_extent": 3.0,
+    "image_batch_size": 8,
+    "use_xy": true,
+    "components": 300,
+    "kmeans_iterations": 30,
+    "em_iterations": 500,
+    "em_tolerance": 0.0001,
+    "variance_floor": 1e-06,
+    "patch_batch_size": 32768,
+    "map_relevance": 16.0,
+    "lambda": 0.125,
+    "sigma": 0.125,
+    "solver_iterations": 500,
+    "solver_tolerance": 0.001,
+    "zero_group_threshold": 0.001,
+    "armijo": 0.0001,
+    "backtrack_factor": 0.5,
+    "backtrack_steps": 60,
+    "swanlab_project": "gait-pdf-lgsr"
+  },
+  "summary": {
+    "Gabor-PDF-NN": {
+      "A": {
+        "videos": 71,
+        "rank1_correct": 64,
+        "rank5_correct": 68,
+        "rank1_percent": 90.14084507042254,
+        "rank5_percent": 95.77464788732394
+      },
+      "B": {
+        "videos": 41,
+        "rank1_correct": 31,
+        "rank5_correct": 37,
+        "rank1_percent": 75.60975609756098,
+        "rank5_percent": 90.2439024390244
+      },
+      "C": {
+        "videos": 41,
+        "rank1_correct": 23,
+        "rank5_correct": 34,
+        "rank1_percent": 56.09756097560976,
+        "rank5_percent": 82.92682926829268
+      },
+      "overall": {
+        "videos": 153,
+        "rank1_correct": 118,
+        "rank5_correct": 139,
+        "rank1_percent": 77.12418300653596,
+        "rank5_percent": 90.84967320261438
+      }
+    }
+  },
+  "reused": true,
+  "timings": {
+    "original_all_baseline_feature_seconds": 118.84429382067174
+  },
+  "provenance": {
+    "source_sha256": {
+      "Gal.mat": "45b85abfa7ecbde9ddb83814d9df2fa05899199d871e8f375a6107e1d82d2a8b",
+      "PrbA.mat": "56e32509dabdb5a0dc4df776d5255e4abcccde738f7cdc1a50cc8be0057a7299",
+      "PrbB.mat": "b23f875eb8533f2df1bd772783966f80ef2052e443835eed1dae42e121aeab07",
+      "PrbC.mat": "49dc0857f1be6b96a68afadceff40d8fec54f7356e2c9ac0ff9c1a81e115dd5d"
+    },
+    "git_commit": "6e1bd45b574de01420c132c8255c39ec9e986159",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "torch": "2.8.0+cu128",
+    "slurm_job_id": "288270",
+    "partition": "debug",
+    "seconds": 118.84429382067174
+  },
+  "source_result_sha256": "492505684c387525c159c9a8129bc30deae8d237271fb577cd4c380b220cc973",
+  "em_iterations": 261,
+  "em_reached_tolerance": true
+}

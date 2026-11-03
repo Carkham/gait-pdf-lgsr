@@ -1,0 +1,26 @@
+[project]
+name = "gait-pdf-lgsr"
+version = "0.1.0"
+description = "Reproduction of Gabor-PDF and locality-constrained group sparse representation for gait recognition"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2.0,<3",
+    "scipy>=1.14,<2",
+    "pillow>=11,<13",
+    "torch==2.8.0",
+    "swanlab>=0.6,<1",
+]
+
+[dependency-groups]
+report = ["matplotlib>=3.10,<4"]
+
+[tool.uv]
+environments = ["sys_platform == 'linux'"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

@@ -1,0 +1,679 @@
+{
+  "source": "results/seed-0-results-grid.json.gz",
+  "seed": 0,
+  "criterion": "maxWIRE",
+  "metrics": [
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 91.54929577464789
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 92.95774647887323
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 91.54929577464789
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 90.14084507042254
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 92.95774647887323
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 91.54929577464789
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 91.54929577464789
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 90.14084507042254
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 87.32394366197182
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 91.54929577464789
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 91.54929577464789
+    },
+    {
+      "split": "A",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 90.14084507042254
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 78.04878048780488
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 78.04878048780488
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 78.04878048780488
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 82.92682926829268
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "B",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 58.536585365853654
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 68.29268292682927
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 65.85365853658537
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 65.85365853658537
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 56.09756097560976
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 68.29268292682927
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 65.85365853658537
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 63.41463414634146
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 56.09756097560976
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 56.09756097560976
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 63.41463414634146
+    },
+    {
+      "split": "C",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 63.41463414634146
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 79.73856209150327
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 82.35294117647058
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 81.04575163398692
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 80.3921568627451
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 79.73856209150327
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 82.35294117647058
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 81.69934640522875
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 80.3921568627451
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 77.77777777777779
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 79.08496732026144
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 81.04575163398692
+    },
+    {
+      "split": "overall",
+      "rank": "rank1",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 80.3921568627451
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 95.77464788732394
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 94.36619718309859
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 87.32394366197182
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 95.77464788732394
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "A",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 97.1830985915493
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 90.2439024390244
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 92.6829268292683
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 92.6829268292683
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 90.2439024390244
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 90.2439024390244
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 92.6829268292683
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 92.6829268292683
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 90.2439024390244
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 85.36585365853658
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 92.6829268292683
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 92.6829268292683
+    },
+    {
+      "split": "B",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 90.2439024390244
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 78.04878048780488
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 82.92682926829268
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 78.04878048780488
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 75.60975609756098
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 73.17073170731707
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 85.36585365853658
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 85.36585365853658
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 85.36585365853658
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 63.41463414634146
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 78.04878048780488
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 80.48780487804879
+    },
+    {
+      "split": "C",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 82.92682926829268
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.025,
+      "percent": 89.54248366013073
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.125,
+      "percent": 92.15686274509804
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.25,
+      "percent": 90.84967320261438
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.0625,
+      "sigma": 0.5,
+      "percent": 89.54248366013073
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.025,
+      "percent": 87.58169934640523
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.125,
+      "percent": 92.81045751633987
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.25,
+      "percent": 92.81045751633987
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.125,
+      "sigma": 0.5,
+      "percent": 92.15686274509804
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.025,
+      "percent": 80.3921568627451
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.125,
+      "percent": 90.19607843137256
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.25,
+      "percent": 91.50326797385621
+    },
+    {
+      "split": "overall",
+      "rank": "rank5",
+      "regularization": 0.25,
+      "sigma": 0.5,
+      "percent": 91.50326797385621
+    }
+  ]
+}

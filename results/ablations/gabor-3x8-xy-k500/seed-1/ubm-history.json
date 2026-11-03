@@ -1,0 +1,757 @@
+{
+  "kmeans": [
+    {
+      "iteration": 0,
+      "distortion": 0.011298149085460148,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 1,
+      "distortion": 0.007751671600275164,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 2,
+      "distortion": 0.007294337775694631,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 3,
+      "distortion": 0.007119960722789124,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 4,
+      "distortion": 0.0070166451196169806,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 5,
+      "distortion": 0.0069464873430584335,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 6,
+      "distortion": 0.006901897061642474,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 7,
+      "distortion": 0.006868531195380995,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 8,
+      "distortion": 0.006838743494111914,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 9,
+      "distortion": 0.006814372011913186,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 10,
+      "distortion": 0.006794982511449923,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 11,
+      "distortion": 0.0067790104477610255,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 12,
+      "distortion": 0.006764638019050363,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 13,
+      "distortion": 0.006752770285859582,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 14,
+      "distortion": 0.00674181082632312,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 15,
+      "distortion": 0.006729131511571109,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 16,
+      "distortion": 0.006720682417667939,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 17,
+      "distortion": 0.006713341450937621,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 18,
+      "distortion": 0.006707825787554683,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 19,
+      "distortion": 0.006702609441845801,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 20,
+      "distortion": 0.006698212776143438,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 21,
+      "distortion": 0.006694113590941138,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 22,
+      "distortion": 0.006690607663208427,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 23,
+      "distortion": 0.006687652877083027,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 24,
+      "distortion": 0.006684956851850548,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 25,
+      "distortion": 0.006682233334525846,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 26,
+      "distortion": 0.006679385690690254,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 27,
+      "distortion": 0.006676945473123711,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 28,
+      "distortion": 0.00667469664530259,
+      "empty_clusters": 0
+    },
+    {
+      "iteration": 29,
+      "distortion": 0.006672674430650655,
+      "empty_clusters": 0
+    }
+  ],
+  "em": [
+    {
+      "iteration": 0,
+      "mean_log_likelihood": 87.87576879569312
+    },
+    {
+      "iteration": 1,
+      "mean_log_likelihood": 89.72071986070468
+    },
+    {
+      "iteration": 2,
+      "mean_log_likelihood": 90.28489607021902
+    },
+    {
+      "iteration": 3,
+      "mean_log_likelihood": 90.57967898636919
+    },
+    {
+      "iteration": 4,
+      "mean_log_likelihood": 90.77678375744811
+    },
+    {
+      "iteration": 5,
+      "mean_log_likelihood": 90.91112711090521
+    },
+    {
+      "iteration": 6,
+      "mean_log_likelihood": 91.01453403260044
+    },
+    {
+      "iteration": 7,
+      "mean_log_likelihood": 91.09028346707031
+    },
+    {
+      "iteration": 8,
+      "mean_log_likelihood": 91.15098842919787
+    },
+    {
+      "iteration": 9,
+      "mean_log_likelihood": 91.20463987525865
+    },
+    {
+      "iteration": 10,
+      "mean_log_likelihood": 91.24012050649863
+    },
+    {
+      "iteration": 11,
+      "mean_log_likelihood": 91.26972469020946
+    },
+    {
+      "iteration": 12,
+      "mean_log_likelihood": 91.29477051404083
+    },
+    {
+      "iteration": 13,
+      "mean_log_likelihood": 91.31498897205606
+    },
+    {
+      "iteration": 14,
+      "mean_log_likelihood": 91.33262439221546
+    },
+    {
+      "iteration": 15,
+      "mean_log_likelihood": 91.35031525804837
+    },
+    {
+      "iteration": 16,
+      "mean_log_likelihood": 91.36838968134772
+    },
+    {
+      "iteration": 17,
+      "mean_log_likelihood": 91.38671817361102
+    },
+    {
+      "iteration": 18,
+      "mean_log_likelihood": 91.39565531110304
+    },
+    {
+      "iteration": 19,
+      "mean_log_likelihood": 91.40324753211229
+    },
+    {
+      "iteration": 20,
+      "mean_log_likelihood": 91.4107177511429
+    },
+    {
+      "iteration": 21,
+      "mean_log_likelihood": 91.41919432688736
+    },
+    {
+      "iteration": 22,
+      "mean_log_likelihood": 91.42673264998305
+    },
+    {
+      "iteration": 23,
+      "mean_log_likelihood": 91.43732806005144
+    },
+    {
+      "iteration": 24,
+      "mean_log_likelihood": 91.44296027018605
+    },
+    {
+      "iteration": 25,
+      "mean_log_likelihood": 91.44893234711438
+    },
+    {
+      "iteration": 26,
+      "mean_log_likelihood": 91.45646565456653
+    },
+    {
+      "iteration": 27,
+      "mean_log_likelihood": 91.460975965466
+    },
+    {
+      "iteration": 28,
+      "mean_log_likelihood": 91.46567683499174
+    },
+    {
+      "iteration": 29,
+      "mean_log_likelihood": 91.47318685304246
+    },
+    {
+      "iteration": 30,
+      "mean_log_likelihood": 91.4811767429201
+    },
+    {
+      "iteration": 31,
+      "mean_log_likelihood": 91.48570966577188
+    },
+    {
+      "iteration": 32,
+      "mean_log_likelihood": 91.49052922961977
+    },
+    {
+      "iteration": 33,
+      "mean_log_likelihood": 91.49390807759846
+    },
+    {
+      "iteration": 34,
+      "mean_log_likelihood": 91.49920050570356
+    },
+    {
+      "iteration": 35,
+      "mean_log_likelihood": 91.50788440160409
+    },
+    {
+      "iteration": 36,
+      "mean_log_likelihood": 91.51156746625867
+    },
+    {
+      "iteration": 37,
+      "mean_log_likelihood": 91.51595809612844
+    },
+    {
+      "iteration": 38,
+      "mean_log_likelihood": 91.52077844707127
+    },
+    {
+      "iteration": 39,
+      "mean_log_likelihood": 91.52578258523876
+    },
+    {
+      "iteration": 40,
+      "mean_log_likelihood": 91.53454665853462
+    },
+    {
+      "iteration": 41,
+      "mean_log_likelihood": 91.54486785122391
+    },
+    {
+      "iteration": 42,
+      "mean_log_likelihood": 91.54975735119984
+    },
+    {
+      "iteration": 43,
+      "mean_log_likelihood": 91.55293025633564
+    },
+    {
+      "iteration": 44,
+      "mean_log_likelihood": 91.55556642578584
+    },
+    {
+      "iteration": 45,
+      "mean_log_likelihood": 91.55747951984047
+    },
+    {
+      "iteration": 46,
+      "mean_log_likelihood": 91.55947381129198
+    },
+    {
+      "iteration": 47,
+      "mean_log_likelihood": 91.5621875363594
+    },
+    {
+      "iteration": 48,
+      "mean_log_likelihood": 91.5646208946736
+    },
+    {
+      "iteration": 49,
+      "mean_log_likelihood": 91.56816817915377
+    },
+    {
+      "iteration": 50,
+      "mean_log_likelihood": 91.56991701665419
+    },
+    {
+      "iteration": 51,
+      "mean_log_likelihood": 91.57146531105894
+    },
+    {
+      "iteration": 52,
+      "mean_log_likelihood": 91.5728270593245
+    },
+    {
+      "iteration": 53,
+      "mean_log_likelihood": 91.57416861641417
+    },
+    {
+      "iteration": 54,
+      "mean_log_likelihood": 91.5754315036659
+    },
+    {
+      "iteration": 55,
+      "mean_log_likelihood": 91.57651834457592
+    },
+    {
+      "iteration": 56,
+      "mean_log_likelihood": 91.57745851049665
+    },
+    {
+      "iteration": 57,
+      "mean_log_likelihood": 91.5782784267578
+    },
+    {
+      "iteration": 58,
+      "mean_log_likelihood": 91.57904044851666
+    },
+    {
+      "iteration": 59,
+      "mean_log_likelihood": 91.57977011219917
+    },
+    {
+      "iteration": 60,
+      "mean_log_likelihood": 91.5805039117674
+    },
+    {
+      "iteration": 61,
+      "mean_log_likelihood": 91.58127942658028
+    },
+    {
+      "iteration": 62,
+      "mean_log_likelihood": 91.58221951185274
+    },
+    {
+      "iteration": 63,
+      "mean_log_likelihood": 91.58360316378383
+    },
+    {
+      "iteration": 64,
+      "mean_log_likelihood": 91.58470869232424
+    },
+    {
+      "iteration": 65,
+      "mean_log_likelihood": 91.5857300222495
+    },
+    {
+      "iteration": 66,
+      "mean_log_likelihood": 91.58728382203223
+    },
+    {
+      "iteration": 67,
+      "mean_log_likelihood": 91.58827069673652
+    },
+    {
+      "iteration": 68,
+      "mean_log_likelihood": 91.58891699292322
+    },
+    {
+      "iteration": 69,
+      "mean_log_likelihood": 91.58949691731115
+    },
+    {
+      "iteration": 70,
+      "mean_log_likelihood": 91.59004769854559
+    },
+    {
+      "iteration": 71,
+      "mean_log_likelihood": 91.59062610035025
+    },
+    {
+      "iteration": 72,
+      "mean_log_likelihood": 91.59131692875329
+    },
+    {
+      "iteration": 73,
+      "mean_log_likelihood": 91.59219823593229
+    },
+    {
+      "iteration": 74,
+      "mean_log_likelihood": 91.59335140111348
+    },
+    {
+      "iteration": 75,
+      "mean_log_likelihood": 91.59398065077293
+    },
+    {
+      "iteration": 76,
+      "mean_log_likelihood": 91.59456780268502
+    },
+    {
+      "iteration": 77,
+      "mean_log_likelihood": 91.59510440182223
+    },
+    {
+      "iteration": 78,
+      "mean_log_likelihood": 91.59558996653124
+    },
+    {
+      "iteration": 79,
+      "mean_log_likelihood": 91.59604261346882
+    },
+    {
+      "iteration": 80,
+      "mean_log_likelihood": 91.59648057145994
+    },
+    {
+      "iteration": 81,
+      "mean_log_likelihood": 91.59691966851094
+    },
+    {
+      "iteration": 82,
+      "mean_log_likelihood": 91.59736134196388
+    },
+    {
+      "iteration": 83,
+      "mean_log_likelihood": 91.59779903810913
+    },
+    {
+      "iteration": 84,
+      "mean_log_likelihood": 91.59829903350881
+    },
+    {
+      "iteration": 85,
+      "mean_log_likelihood": 91.59997120127422
+    },
+    {
+      "iteration": 86,
+      "mean_log_likelihood": 91.60630522479654
+    },
+    {
+      "iteration": 87,
+      "mean_log_likelihood": 91.60876273810602
+    },
+    {
+      "iteration": 88,
+      "mean_log_likelihood": 91.60915066400005
+    },
+    {
+      "iteration": 89,
+      "mean_log_likelihood": 91.60947554511752
+    },
+    {
+      "iteration": 90,
+      "mean_log_likelihood": 91.60977258217584
+    },
+    {
+      "iteration": 91,
+      "mean_log_likelihood": 91.61004335413953
+    },
+    {
+      "iteration": 92,
+      "mean_log_likelihood": 91.61033094738694
+    },
+    {
+      "iteration": 93,
+      "mean_log_likelihood": 91.61070592969313
+    },
+    {
+      "iteration": 94,
+      "mean_log_likelihood": 91.6112840750301
+    },
+    {
+      "iteration": 95,
+      "mean_log_likelihood": 91.61220619598798
+    },
+    {
+      "iteration": 96,
+      "mean_log_likelihood": 91.61274475303203
+    },
+    {
+      "iteration": 97,
+      "mean_log_likelihood": 91.61297715642128
+    },
+    {
+      "iteration": 98,
+      "mean_log_likelihood": 91.613154564074
+    },
+    {
+      "iteration": 99,
+      "mean_log_likelihood": 91.61331288901671
+    },
+    {
+      "iteration": 100,
+      "mean_log_likelihood": 91.61346674558918
+    },
+    {
+      "iteration": 101,
+      "mean_log_likelihood": 91.61361855579311
+    },
+    {
+      "iteration": 102,
+      "mean_log_likelihood": 91.6137683708008
+    },
+    {
+      "iteration": 103,
+      "mean_log_likelihood": 91.61391568709163
+    },
+    {
+      "iteration": 104,
+      "mean_log_likelihood": 91.61405774964686
+    },
+    {
+      "iteration": 105,
+      "mean_log_likelihood": 91.61419473444364
+    },
+    {
+      "iteration": 106,
+      "mean_log_likelihood": 91.61432924963357
+    },
+    {
+      "iteration": 107,
+      "mean_log_likelihood": 91.61446307242326
+    },
+    {
+      "iteration": 108,
+      "mean_log_likelihood": 91.61459699592474
+    },
+    {
+      "iteration": 109,
+      "mean_log_likelihood": 91.6147312191326
+    },
+    {
+      "iteration": 110,
+      "mean_log_likelihood": 91.61486557107226
+    },
+    {
+      "iteration": 111,
+      "mean_log_likelihood": 91.61499982246312
+    },
+    {
+      "iteration": 112,
+      "mean_log_likelihood": 91.6151338255672
+    },
+    {
+      "iteration": 113,
+      "mean_log_likelihood": 91.61526743042387
+    },
+    {
+      "iteration": 114,
+      "mean_log_likelihood": 91.61540058874611
+    },
+    {
+      "iteration": 115,
+      "mean_log_likelihood": 91.6155335982129
+    },
+    {
+      "iteration": 116,
+      "mean_log_likelihood": 91.61566713583913
+    },
+    {
+      "iteration": 117,
+      "mean_log_likelihood": 91.61580217108161
+    },
+    {
+      "iteration": 118,
+      "mean_log_likelihood": 91.6159404830464
+    },
+    {
+      "iteration": 119,
+      "mean_log_likelihood": 91.6160847779385
+    },
+    {
+      "iteration": 120,
+      "mean_log_likelihood": 91.6162372747037
+    },
+    {
+      "iteration": 121,
+      "mean_log_likelihood": 91.61639866583076
+    },
+    {
+      "iteration": 122,
+      "mean_log_likelihood": 91.6165686952587
+    },
+    {
+      "iteration": 123,
+      "mean_log_likelihood": 91.61674810352186
+    },
+    {
+      "iteration": 124,
+      "mean_log_likelihood": 91.61693971142714
+    },
+    {
+      "iteration": 125,
+      "mean_log_likelihood": 91.61715101955899
+    },
+    {
+      "iteration": 126,
+      "mean_log_likelihood": 91.6173919910218
+    },
+    {
+      "iteration": 127,
+      "mean_log_likelihood": 91.61766673228145
+    },
+    {
+      "iteration": 128,
+      "mean_log_likelihood": 91.61796473697073
+    },
+    {
+      "iteration": 129,
+      "mean_log_likelihood": 91.61827673495578
+    },
+    {
+      "iteration": 130,
+      "mean_log_likelihood": 91.61860791292263
+    },
+    {
+      "iteration": 131,
+      "mean_log_likelihood": 91.61896717618203
+    },
+    {
+      "iteration": 132,
+      "mean_log_likelihood": 91.61935635996608
+    },
+    {
+      "iteration": 133,
+      "mean_log_likelihood": 91.61977320843957
+    },
+    {
+      "iteration": 134,
+      "mean_log_likelihood": 91.62022083989405
+    },
+    {
+      "iteration": 135,
+      "mean_log_likelihood": 91.62083517909515
+    },
+    {
+      "iteration": 136,
+      "mean_log_likelihood": 91.62294607568433
+    },
+    {
+      "iteration": 137,
+      "mean_log_likelihood": 91.6246525588191
+    },
+    {
+      "iteration": 138,
+      "mean_log_likelihood": 91.62501933983674
+    },
+    {
+      "iteration": 139,
+      "mean_log_likelihood": 91.62526408198454
+    },
+    {
+      "iteration": 140,
+      "mean_log_likelihood": 91.62545532776284
+    },
+    {
+      "iteration": 141,
+      "mean_log_likelihood": 91.62561780499672
+    },
+    {
+      "iteration": 142,
+      "mean_log_likelihood": 91.6257623474702
+    },
+    {
+      "iteration": 143,
+      "mean_log_likelihood": 91.6258944657008
+    },
+    {
+      "iteration": 144,
+      "mean_log_likelihood": 91.62601728725066
+    },
+    {
+      "iteration": 145,
+      "mean_log_likelihood": 91.62613278514051
+    },
+    {
+      "iteration": 146,
+      "mean_log_likelihood": 91.62624231692902
+    },
+    {
+      "iteration": 147,
+      "mean_log_likelihood": 91.62634683146169
+    },
+    {
+      "iteration": 148,
+      "mean_log_likelihood": 91.62644699467187
+    },
+    {
+      "iteration": 149,
+      "mean_log_likelihood": 91.62654328252314
+    }
+  ],
+  "em_reached_tolerance": true
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Human Gait Recognition Using Patch Distribution Feature and Locality-Constrained Group Sparse Representation",
+  "doi": "10.1109/TIP.2011.2160956",
+  "year": 2012,
+  "status": "original_paper_reference_only; implementation parameters and proxy-video protocol are documented in config.json and README.md",
+  "dataset": {
+    "name": "USF HumanID",
+    "subjects": 122,
+    "source_video_count": 1870,
+    "gallery_video_count": 122,
+    "probe_counts": {"A": 122, "B": 54, "C": 54, "D": 121, "E": 60, "F": 121, "G": 60, "H": 120, "I": 60, "J": 120, "K": 33, "L": 33},
+    "averaging": "total correct / total probe videos (micro average)",
+    "gei_shape": [128, 88],
+    "patch_grid_shape": [64, 44],
+    "ubm_fit_split": "gallery only"
+  },
+  "gabor": {
+    "scales": [0, 1, 2, 3, 4],
+    "orientations": [0, 1, 2, 3, 4, 5, 6, 7],
+    "delta": "2*pi",
+    "frequency": "pi * 2**(-(scale+2)/2)",
+    "angle": "pi * orientation / 8",
+    "patch_dimension_with_xy": 42
+  },
+  "gmm": {
+    "components": 300,
+    "covariance": "diagonal",
+    "initial_weights": "uniform",
+    "initial_means_and_covariance": "k-means clusters from all gallery patches",
+    "adapted_weights": "occupancy / patches_per_gei",
+    "adapted_means": "(weighted_patch_sum + r * ubm_mean) / (occupancy + r)",
+    "adapted_covariance": "unchanged from UBM",
+    "supervector_block": "sqrt(adapted_weight / 2) * (adapted_mean - ubm_mean) / sqrt(ubm_variance)",
+    "normalization": "subtract per-vector scalar mean, then L2 normalize",
+    "output_dimension": 12600
+  },
+  "classification": {
+    "nn_distance": "median over probe GEIs of minimum Euclidean distance to gallery GEIs",
+    "lgsr_objective": "0.5*||Y-X*S||_F^2 + lambda*sum_c ||D_c*S_c||_F (elementwise product)",
+    "lgsr_distance_weight": "D_c[i,j] = exp((EMD_c - min_c EMD_c)/sigma) * euclidean(X_c[i],Y[j])",
+    "gsr_distance_weight": "all ones",
+    "maxwire_score": "||S_c||_F / ||Y-X_c*S_c||_F",
+    "lambda_grid": [0.0625, 0.125, 0.25],
+    "sigma_grid": [0.025, 0.125, 0.25, 0.5],
+    "algorithm1_zero_group_threshold": 0.001,
+    "algorithm1_stopping_delta": 0.001,
+    "rank5": "If fewer than five groups are active, only active groups count as candidates",
+    "parameter_selection": "Paper reports best settings per probe and separately for Rank-1 and Rank-5; this is not a held-out validation result"
+  },
+  "paper_reported_percent_not_reproduced": {
+    "gray_nn": {"rank1": 40.61, "rank5": 63.13},
+    "gabor_nn": {"rank1": 50.89, "rank5": 67.86},
+    "gabor_pdf_nn": {"rank1": 62.99, "rank5": 80.84},
+    "gabor_pdf_sr_minre": {"rank1": 67.58, "rank5": 82.86},
+    "gabor_pdf_llc_minre": {"rank1": 68.00, "rank5": 83.82},
+    "gabor_pdf_gsr_maxwire": {"rank1": 69.17, "rank5": 84.13},
+    "gabor_pdf_lgsr_maxwire": {"rank1": 70.07, "rank5": 85.31}
+  },
+  "unresolved": [
+    "Full 122-subject silhouettes and gait cycles, or equivalent per-cycle GEIs",
+    "MAP relevance parameter r is not specified",
+    "Gabor kernel support, padding, complex response scalar conversion, and downsampling interpolation are not specified",
+    "Coordinate units and intensity scaling are not specified",
+    "K-means seed, EM tolerance, iteration cap and covariance regularization are not specified",
+    "Algorithm 1 line search and iteration cap are not specified; prose and pseudocode disagree about the initial active set",
+    "Equation 10 is a sufficient bound at zero groups, not the general exact weighted-group KKT condition; distinguish literal algorithm replication from exact convex optimization"
+  ]
+}

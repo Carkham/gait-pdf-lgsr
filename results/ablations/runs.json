@@ -1,0 +1,156 @@
+[
+  {
+    "variant": "gabor-5x8-xy-k100",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 0,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/uacgxdtx"
+  },
+  {
+    "variant": "gabor-5x8-xy-k500",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 2,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/gnxqvnnd"
+  },
+  {
+    "variant": "gabor-5x4-xy-k100",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 3,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/sgimezis"
+  },
+  {
+    "variant": "gabor-5x4-xy-k300",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 4,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/hcjzo2gx"
+  },
+  {
+    "variant": "gabor-5x4-xy-k500",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 5,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/frtpm24a"
+  },
+  {
+    "variant": "gabor-3x8-xy-k100",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 6,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/stmj765y"
+  },
+  {
+    "variant": "gabor-3x8-xy-k300",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 7,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/bq4tnj2o"
+  },
+  {
+    "variant": "gabor-3x8-xy-k500",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 8,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/fuuvtuq0"
+  },
+  {
+    "variant": "gabor-3x4-xy-k100",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 9,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/7djr4ujj"
+  },
+  {
+    "variant": "gabor-3x4-xy-k300",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 10,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/z2mks4bb"
+  },
+  {
+    "variant": "gabor-3x4-xy-k500",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 11,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/l5kjc9sf"
+  },
+  {
+    "variant": "gabor-5x8-no-xy-k100",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 12,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/08ssv08x"
+  },
+  {
+    "variant": "gabor-5x8-no-xy-k300",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 13,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/zoy5nw6s"
+  },
+  {
+    "variant": "gabor-5x8-no-xy-k500",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "slurm_array_job_id": "288311",
+    "slurm_array_task_id": 14,
+    "swanlab_url": "https://swanlab.cn/@carkham/gait-pdf-lgsr/runs/t05ihior"
+  }
+]

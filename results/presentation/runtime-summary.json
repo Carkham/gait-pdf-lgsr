@@ -1,0 +1,88 @@
+{
+  "group_timing": "Algorithm 1, class scoring, and both ranking records; EMD, Gram matrices, and distances are prepared before this timer.",
+  "feature_timing": "MAT loading, Gabor extraction, gallery UBM fitting, MAP encoding, and three NN baselines across gallery and A\u2013C.",
+  "evaluation_timing": "A\u2013C cross-products, distances, EMD, GSR/LGSR optimization and scoring; gallery Gram preparation precedes this timer.",
+  "boxplot": "All proxy groups from seeds 0,1,2; boxes: quartiles, line: median, whiskers: 1.5 IQR; fliers hidden.",
+  "groups": [
+    {
+      "method": "Gabor-PDF-GSR",
+      "split": "A",
+      "groups": 213,
+      "mean_seconds": 0.15643625641285394,
+      "median_seconds": 0.15201898850500584,
+      "q25_seconds": 0.14338215347379446,
+      "q75_seconds": 0.1655994039028883,
+      "total_seconds": 33.32092261593789
+    },
+    {
+      "method": "Gabor-PDF-GSR",
+      "split": "B",
+      "groups": 123,
+      "mean_seconds": 0.16361307848729495,
+      "median_seconds": 0.16008413769304752,
+      "q25_seconds": 0.14850377244874835,
+      "q75_seconds": 0.17448744177818298,
+      "total_seconds": 20.12440865393728
+    },
+    {
+      "method": "Gabor-PDF-GSR",
+      "split": "C",
+      "groups": 123,
+      "mean_seconds": 0.16510324655630723,
+      "median_seconds": 0.16419354174286127,
+      "q25_seconds": 0.14523728331550956,
+      "q75_seconds": 0.18137036077678204,
+      "total_seconds": 20.30769932642579
+    },
+    {
+      "method": "Gabor-PDF-LGSR",
+      "split": "A",
+      "groups": 213,
+      "mean_seconds": 0.04502757044482819,
+      "median_seconds": 0.04111093934625387,
+      "q25_seconds": 0.027231767773628235,
+      "q75_seconds": 0.05731398891657591,
+      "total_seconds": 9.590872504748404
+    },
+    {
+      "method": "Gabor-PDF-LGSR",
+      "split": "B",
+      "groups": 123,
+      "mean_seconds": 0.044043945428741176,
+      "median_seconds": 0.037777166813611984,
+      "q25_seconds": 0.02366096619516611,
+      "q75_seconds": 0.06025367556139827,
+      "total_seconds": 5.417405287735164
+    },
+    {
+      "method": "Gabor-PDF-LGSR",
+      "split": "C",
+      "groups": 123,
+      "mean_seconds": 0.06693436404523569,
+      "median_seconds": 0.057362454012036324,
+      "q25_seconds": 0.03940964816138148,
+      "q75_seconds": 0.08788545057177544,
+      "total_seconds": 8.23292677756399
+    }
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "feature_pipeline_seconds": 118.84429382067174,
+      "evaluation_seconds": 64.38945168815553,
+      "gpu": "NVIDIA GeForce RTX 4090"
+    },
+    {
+      "seed": 1,
+      "feature_pipeline_seconds": 58.00776365492493,
+      "evaluation_seconds": 58.279313382692635,
+      "gpu": "NVIDIA GeForce RTX 4090"
+    },
+    {
+      "seed": 2,
+      "feature_pipeline_seconds": 92.39234623964876,
+      "evaluation_seconds": 61.72349341586232,
+      "gpu": "NVIDIA GeForce RTX 4090"
+    }
+  ]
+}
